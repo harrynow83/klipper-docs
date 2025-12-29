@@ -29,4 +29,3 @@ Deployment is fully automated.
 ./deploy.sh
 # klipper-docs
 
-Felicidades

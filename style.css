@@ -41,11 +41,12 @@ body {
   max-width: 1200px;
 }
 
-@media (min-width: 64 rem) {
+@media (min-width: 64rem) {
   body {
     margin-left: 13em;
   }
 }
+
 
 h1,
 h2,
@@ -438,6 +439,16 @@ nav a {
   font-size: 1em;
 }
 
+@media (min-width: 48rem) {
+  nav {
+    transform: none !important;
+    height: auto;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
 
 
 @media screen and (min-width: 48rem) {

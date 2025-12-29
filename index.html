@@ -185,26 +185,49 @@
 <p>Vamos a usar KIAUH, que lo hace todo automático.</p>
 
 <p><strong>1. Actualizar el sistema</strong></p>
-<p><code>sudo apt update && sudo apt upgrade -y</code></p>
+<section class="code-section">
+  <div class="code-box">
+    <pre><code>sudo apt update && sudo apt upgrade -y</code></pre>
+    </div>
+</section>
 
 
-
-<p><strong>2. Instalar KIAUH</strong></p>
-<p><code>curl -fsSL https://raw.githubusercontent.com/mainsail-crew/kiauh/master/kiauh.sh | bash</code></p>
+<p><strong>2. Descargar KIAUH</strong></p>
+<section class="code-section">
+<div class="code-box">
+<p><code>git clone https://github.com/dw-0/kiauh.git</code></p>
+</div>
+</section>
 
 <p><strong>3. Ejecutar KIAUH</strong></p>
+<section class="code-section">
+<div class="code-box">
+  <p><code>cd kiauh</code></p>
 <p><code>./kiauh.sh</code></p>
+</div>
+</section>
+
 
 4. Sigue las instrucciones en pantalla para instalar Klipper y Mainsail.
 
 5. Cuando te pregunte si quieres instalar Klipper, responde "Sí".
 6. Cuando te pregunte si quieres instalar Mainsail, responde "Sí".
 
-7. Una vez instalado, reinicia la Raspberry: sudo reboot
+7. Una vez instalado, reinicia la Raspberry: 
 
-8. Después de reiniciar, accede a Mainsail desde tu navegador: http://raspberrypi.local
+<section class="code-section">
+<div class="code-box">
+<p><code>sudo reboot</code></p>
+</div>
+</section>
+
+8. Después de reiniciar, accede a Mainsail desde tu navegador: http://raspberrypi.local, o http://192.168.1.70 la ip de tu rpi
 
 ✅ Ya tienes Klipper y Mainsail instalados y funcionando en tu Raspberry Pi Zero 2W.
+
+
+
+
 
 
           <strong>Style Stage</strong> seeks to rekindle that spirit by providing this page as

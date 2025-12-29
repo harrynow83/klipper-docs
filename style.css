@@ -37,10 +37,11 @@ body {
   font-size: clamp(1.2rem, 0.7rem + 0.9vw, 4rem);
   line-height: 1.2;
   overflow-x: hidden;
-  max-width: 112.5rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 64 rem) {
   body {
     margin-left: 13em;
   }

@@ -42,24 +42,4 @@ document.addEventListener("click", async (e) => {
     btn.textContent = "Error";
   }
 });
-
-
-const navToggle = document.querySelector(".nav-toggle");
-const nav = document.getElementById("primary-nav");
-
-navToggle.addEventListener("click", () => {
-  const isOpen = nav.classList.toggle("open");
-  navToggle.setAttribute("aria-expanded", isOpen);
-});
-
-nav.querySelectorAll("a").forEach(link => {
-  link.addEventListener("click", () => {
-    nav.classList.remove("open");
-    navToggle.setAttribute("aria-expanded", false);
-  });
-});
-
-
-
-
 </script>

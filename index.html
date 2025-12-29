@@ -46,7 +46,7 @@
     <article id="flyd5">
       <section class="container">
 
-  <h2>Instalación</h2>
+  <h2>Installation on</h2>
   <h3>Mellow Fly D5</h3>
     <p>🧩 ¿Qué vamos a hacer? </p> <br>
            <ol>
@@ -151,11 +151,19 @@
   <p>1 Escribe:</p>
 
   <div class="code-box">
-    <pre><code>ssh pi@raspberrypi.local</code></pre>
+    <pre><code>ssh pi@192.168.1.70</code></pre>
     <pre><code>sudo apt update && sudo apt upgrade -y</code></pre>
   </div>
 </section>
 
+<p>si tienes problemas para acceder a la rpi por ssh ejecuta este comando</p>
+<p>replace 192.168.1.70 with your Rpi IP address</p>
+
+<section class="code-section">
+    <pre><code>ssh-keygen -R 192.168.1.70</code></pre>
+</section>
+<p><strong>wait (how to know my IP address)</strong></p>
+<p>click <a href="https://www.youtube.com/watch?v=_EcCSbRy25M/">here</a></p>
 
 
 <p>Contraseña: raspberry</p>

@@ -20,6 +20,14 @@ It provides:
 - Best practices for 3D printers
 
 ---
+## if problem arrise
+
+copi on the terminal 
+
+git pull --rebase origin main
+
+git push
+
 
 ## 🚀 How to deploy
 
@@ -28,4 +36,5 @@ Deployment is fully automated.
 ```bash
 ./deploy.sh
 # klipper-docs
+
 

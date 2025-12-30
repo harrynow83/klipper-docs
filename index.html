@@ -67,85 +67,50 @@
   <li>Cable USB (Fly D5 ↔ Raspberry)</li>
   <li>Impresora 3D</li>
   <li>Fuente de alimentación estable para la Raspberry</li>
-</ol>
-
+    </ol>
 
         <h3>Procedimiento paso a paso</h3>
 
-        <ul>
-          <li>FASE 1️⃣ – Preparar la microSD</li>
-          <li>Descarga Raspberry Pi Imager</li>
-        </ul>
+<ul>
+  <li>FASE 1️⃣ – Preparar la microSD</li>
+  <li>Descarga Raspberry Pi Imager</li>
+</ul>
 
         <p>En tu PC entra a: <a href="https://www.raspberrypi.com/software">https://www.raspberrypi.com/software</a></p>
 
+        <p><strong>2. Grabar el sistema operativo</strong></p>
+        <p>Abre Raspberry Pi Imager</p>
+        <p>Pulsa CHOOSE OS</p>
+        <p>Selecciona: <strong>Raspberry Pi OS (Other) → Raspberry Pi OS Lite (64-bit)</strong></p>
+        <p>A continuación, selecciona la tarjeta microSD como destino y pulsa "WRITE" para grabar el sistema operativo.</p>
 
- <p><strong>2. Grabar el sistema operativo</strong></p>
-
-<p>Abre Raspberry Pi Imager</p>
-
-<p>Pulsa CHOOSE OS</p>
-
-<p>Selecciona: <strong>Raspberry Pi OS (Other) → Raspberry Pi OS Lite (64-bit)</strong></p>
-
-
-<p>
-          A continuación, selecciona la tarjeta microSD como destino y pulsa "WRITE" para grabar el sistema operativo.
-        </p>
-
-  <p><strong>3. Configuración avanzada (MUY IMPORTANTE)</strong></p>
-
-  <p>Antes de grabar:</p>
-
-  <p>Pulsa el icono del engranaje ⚙️</p>
-
-  <p>Marca:</p>
-
-  <p>✅ Enable SSH</p>
-
-  <p>Usuario: pi</p>
-
-  <p>Contraseña: (pon una fácil, por ejemplo raspberry)</p>
-
-  <p>✅ Configure WiFi</p>
-
-  <p>SSID: tu WiFi</p>
-
-  <p>Password: tu WiFi</p>
-
-  <p>Country: tu país</p>
-
-  <p>✅ Set locale settings (ES, teclado español)</p>
-
-  <p>Guarda y pulsa WRITE</p>
-
-  <p>⏳ Espera a que termine.</p>
+        <p><strong>3. Configuración avanzada (MUY IMPORTANTE)</strong></p>
+        <p>Antes de grabar:</p>
+        <p>Pulsa el icono del engranaje ⚙️</p>
+        <p>Marca:</p>
+        <p>✅ Enable SSH</p>
+        <p>Usuario: pi</p>
+        <p>Contraseña: (pon una fácil, por ejemplo raspberry)</p>
+        <p>✅ Configure WiFi</p>
+        <p>SSID: tu WiFi</p>
+        <p>Password: tu WiFi</p>
+        <p>Country: tu país</p>
+        <p>✅ Set locale settings (ES, teclado español)</p>
+        <p>Guarda y pulsa WRITE</p>
+        <p>⏳ Espera a que termine.</p>
   
     
- <strong>FASE 2️⃣ – Arrancar la Raspberry</strong>
-  </p>
-
-  <p>
- <ol><li>Saca la microSD del PC</li></ol>
-
-  <p>
-  <ol><li>Ponla en la Raspberry Pi Zero 2W</li></ol>
-
-  <p>
-  <ol><li>Conecta solo alimentación</li></ol>
-
-  <p>
-  <ol><li>Espera 2–3 minutos</li></ol>
-
-  <p>
-  La Raspberry se conectará sola al WiFi.
-  </p>
+        <strong>FASE 2️⃣ – Arrancar la Raspberry</strong>
+        <p>Saca la microSD del PC</p>
+        <p>Ponla en la Raspberry Pi Zero 2W</p>
+        <p>Conecta solo alimentación</p>
+        <p>Espera 2–3 minutos</p>
+        <p>La Raspberry se conectará sola al WiFi.</p>
 
 
-<h3>FASE 3️⃣ – Conectarse por SSH (control remoto)</h3>
-<p>En Windows/Mac</p>
-
-<p>Abre CMD o Terminal</p>
+        <h3>FASE 3️⃣ – Conectarse por SSH (control remoto)</h3>
+        <p>En Windows/Mac</p>
+        <p>Abre CMD o Terminal</p>
 
 <section class="code-section">
   <p>1 Escribe:</p>
@@ -155,7 +120,7 @@
   </div>
 </section>
 
-<p>si tienes problemas para acceder a la rpi por ssh ejecuta este comando</p>
+  <p>si tienes problemas para acceder a la rpi por ssh ejecuta este comando</p>
 <p>replace 192.168.1.70 with your Rpi IP address</p>
 
 <section class="code-section">
@@ -165,34 +130,34 @@
 </section>
 
 
-<p><strong>wait (how to know my IP address)</strong></p>
-<p>click <a href="https://www.youtube.com/watch?v=_EcCSbRy25M/">here</a></p>
+  <p><strong>wait (how to know my IP address)</strong></p>
+  <p>click <a href="https://www.youtube.com/watch?v=_EcCSbRy25M/">here</a></p>
 
 
-<p>Contraseña: raspberry</p>
-<p>✅ Si te pide confirmar la clave, escribe "yes" y presiona Enter.</p>
-<p>✅ Si todo va bien, verás el prompt de la Raspberry: <code>pi@raspberrypi:~ $</code></p>
-<p>✅ Ahora estás conectado remotamente a la Raspberry.</p>
-<p>✅ Puedes ejecutar comandos en la Raspberry desde tu PC.</p>
+  <p>Contraseña: raspberry</p>
+  <p>✅ Si te pide confirmar la clave, escribe "yes" y presiona Enter.</p>
+  <p>✅ Si todo va bien, verás el prompt de la Raspberry: <code>pi@raspberrypi:~ $</code></p>
+  <p>✅ Ahora estás conectado remotamente a la Raspberry.</p>
+  <p>✅ Puedes ejecutar comandos en la Raspberry desde tu PC.</p>
 
 <h4><strong>FASE 4️⃣ – Instalar Klipper + Mainsail a traves de KIAUH</strong></h4>
 <p>Vamos a usar KIAUH, que lo hace todo automático.</p>
 
-<p><strong>1. Actualizar el sistema</strong></p>
+  <p><strong>1. Actualizar el sistema</strong></p>
 <section class="code-section">
   <div class="code-box">
     <pre><code>sudo apt update && sudo apt upgrade -y</code></pre>
     </div>
 </section>
 
-<p><strong>2. Descargar KIAUH</strong></p>
+  <p><strong>2. Descargar KIAUH</strong></p>
 <section class="code-section">
 <div class="code-box">
 <p><code>git clone https://github.com/dw-0/kiauh.git</code></p>
 </div>
 </section>
 
-<p><strong>3. Ejecutar KIAUH</strong></p>
+  <p><strong>3. Ejecutar KIAUH</strong></p>
 <section class="code-section">
 <div class="code-box">
   <p><code>cd kiauh</code></p>
@@ -201,11 +166,8 @@
 </section>
 
 <p><strong>4. Instalar los componentes</strong></p>
-
 <p>te saldra algo como esto: <img src="img/kiauh.png" alt="kiauh"><br>Dentro del menú:</p>
-
 <p><strong>Pulsa 1 → Install</strong></p>
-
 <p><strong>Instala en este orden:</strong></p><br>
 
       <section class="container">
@@ -216,45 +178,44 @@
       </ol>
       </section>
 
-<p>👉 Acepta todo por defecto</p><br>
-<p>👉 Espera a que termine cada uno</p><br>
-
-<p>Una vez instalado, reinicia la Raspberry: </p>
-
+    <p>👉 Acepta todo por defecto</p><br>
+    <p>👉 Espera a que termine cada uno</p><br>
+    <p>Una vez instalado, reinicia la Raspberry: </p>
+    <p>✅ Si todo va bien, verás el prompt de la Raspberry: <code>pi@raspberrypi:~ $</code></p>
 <section class="code-section">
-<div class="code-box">
-<p><code>sudo reboot</code></p>
-</div>
+  <div class="code-box">
+    <pre><code>sudo reboot</code></pre>
+  </div>
 </section>
 
-<p>8. Después de reiniciar, accede a Mainsail desde tu navegador: http://raspberrypi.local, o http://192.168.1.70 la ip de tu rpi</p><br>
+  <p>8. Después de reiniciar, accede a Mainsail desde tu navegador: http://raspberrypi.local, o http://192.168.1.70 la ip de tu rpi</p><br>
 
-<p>✅ Ya tienes Klipper y Mainsail instalados y funcionando en tu Raspberry Pi Zero 2W.</p><br>
+        <p>✅ Ya tienes Klipper y Mainsail instalados y funcionando en tu Raspberry Pi Zero 2W.</p><br>
 
-<p>✅ Ahora tienes que configurar Klipper para que funcione con tu impresora.</p><br>
-<p>Para ello, tienes que crear un archivo llamado config.cfg en la carpeta /home/pi/klipper/config/</p><br>
-<p><strong>###### Happy printing!</strong></p>
+        <p>✅ Ahora tienes que configurar Klipper para que funcione con tu impresora.</p><br>
 
+        <p>Para ello, tienes que crear un archivo llamado config.cfg en la carpeta /home/pi/klipper/config/</p><br>
+
+        <p><strong>###### Happy printing!</strong></p><br>
 
           <strong>FASE 5️⃣ – </strong>Compilar Klipper para la Mellow Fly D5
 
         <blockquote>
           <p>
             <strong>1. Entrar al configurador</strong> 
-
             <section class="code-section">
             <div class="code-box">
-            <p><code>cd ~/klipper</code></p>
-            <p><code>make menuconfig</code></p>
+              <pre><code>cd ~/klipper</code></pre>
+              <pre><code>make menuconfig</code></pre>
             </div>
             </section>
-
             <a href="https://mellow-3d.github.io/fly_d5_klipper_usb.html">"visit the official MELLOW 3D web for more info"</a> directory page and select a style to view. A
             page with identical content to this one will be presented with a new design provided
             from a contributed stylesheet. CSS practitioners of any skill level are invited to
             <a href="#contribute">submit a stylesheet</a>!
           </p>
         </blockquote>
+
         <p>
           The HTML for this page was created to be semantic, accessible, and free of nearly all
           other opinions. Nested sectioning elements with the class `.container` serve as
@@ -264,6 +225,7 @@
           `.skip-link`!
         </p>
       </section>
+
       <section class="container">
         <h2>electronics</h2>
         <p>
@@ -271,7 +233,6 @@
           behaviors, and browser support is nearly in sync for most high-touch features.
         </p>
         <p>Some examples of modern CSS include:</p>
-     
         <p>
           We also collectively have an improved understanding of what it takes to make
           accessible experiences.
@@ -282,6 +243,7 @@
         </p>
       </section>
     </article>
+
     <article id="guidelines">
       <section class="container">
         <h2>Guidelines</h2>
@@ -341,7 +303,8 @@
             `.skip-link`!
           </p>
         </section>
-        <section class="container">
+
+      <section class="container">
           <h2>electronics</h2>
           <p>
             Modern CSS has increased and improved the available CSS properties and layout
@@ -358,9 +321,7 @@
             skills, and learn from others!
           </p>
         </section>
-      </article>
-  
-
+      </article>       
 
     <article id="contribute">
       <section class="container">
@@ -373,8 +334,6 @@
           to.
         </p>
       </section>
-
-
 
       <section class="container">
         <h3>Steps to Contribute</h3>
@@ -400,7 +359,6 @@
         </ol>
       </section>
 
-
       <footer id="files">
         <div class="container">
           <h3>Source Files</h3>
@@ -425,6 +383,7 @@
     <a href="/styles/css/retro-cyberpunk.css">View Stylesheet</a>
   </div>
 </aside>
+
 <aside id="styles">
   <div class="container">
     <h2>Featured Styles</h2>
@@ -448,13 +407,8 @@
         </span>
       </li>
     </ul>
-
     <a href="/styles/" class="link-allstyles">View All Styles</a>
   </div>
-</aside>
-
-
-
 
 <footer class="page-footer">
   <div class="container">
@@ -488,9 +442,7 @@
     </p>
   </div>
 
-
 </footer>
-
 </body>
 <script src="script.js"></script>
 </html>

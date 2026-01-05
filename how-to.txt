@@ -1,0 +1,7 @@
+corre este comando para subir y actualizar la web
+
+./deploy.sh
+
+
+git status
+

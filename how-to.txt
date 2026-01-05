@@ -1,7 +1,17 @@
-corre este comando para subir y actualizar la web
+///corre este comando para subir y actualizar la web
+
+///dar permisos al deploy (solo una vez)
+
+
+chmod +x deploy.sh
+
+/// luego este deploy para cada cambio (comando unico)
 
 ./deploy.sh
 
+///otro comnado para ver el status
 
 git status
+
+
 

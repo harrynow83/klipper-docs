@@ -34,7 +34,7 @@
     <li><a href="#contribute">Contribute</a></li>
     <li><a href="#printercfg">Files</a></li>
     <li><a href="#styles">All Styles</a></li>
-    <li><a href="#General">General</a></li>
+    <li><a href="#delta">General</a></li>
     <li><a href="#other">other web</a></li>
 
     <li><a href="https://v0-local-printer-app-git-ibiza-3dfarm-harrys-projects-04b130db.vercel.app/
@@ -212,6 +212,8 @@
             <div class="code-box">
               <pre><code>cd ~/klipper</code></pre>
               <pre><code>make menuconfig</code></pre>
+              <pre><code>make</code></pre>
+              
             </div>
             </section>
             <a href="https://mellow-3d.github.io/fly_d5_klipper_usb.html">"visit the official MELLOW 3D web for more info"</a> directory page and select a style to view. A
@@ -283,7 +285,7 @@
     </article>
 
     
-      <article id="General">
+      <article id="delta">
         <section class="container">
   
           <h2>General</h2>
@@ -331,8 +333,13 @@
     <article id="contribute">
       <section class="container">
         <h2>Contribute</h2>
-        <p>All who enjoy the craft of writing CSS are welcome to contribute!</p>
+        <p>una vez creado el archivo firmware.bin copiar esto en la terminal para salvar el firmware de la MCU a nuestra PC. </p>
         <p>
+          
+          <pre><code>scp pi@192.168.1.73:~/klipper/out/klipper.bin ~/Desktop/</code></pre>
+
+          <p>donde pi@reemplaza por tu ip</p>
+
           By participating as a contributor, your work will be shared with your provided
           attribution as long as Style Stage is online, your stylesheet link and any asset links
           remain valid, and all <a href="/guidelines/">contributor guidelines</a> are adhered

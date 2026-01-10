@@ -15,12 +15,12 @@ const cardsData = [
         title: "Tarjeta 3",
         description: "Descripción de la tercera tarjeta.",
         image: "img/mellow-compile.png",
-        link: "https://www.google.com"
+        link: "https://ellis3dp.com/Print-Tuning-Guide/"
     },
     {
         title: "Tarjeta 4",
         description: "Descripción de la cuarta tarjeta.",
-        image: "img/pi-zero.jpg",
+        image: "img/pi-zero.png",
         link: "#"
     }
 ];
